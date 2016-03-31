@@ -271,3 +271,53 @@ opacity: 0;
 	color:rgb(102, 102, 102);
 	font-size: 12px;
 }
+
+/*分割线*/
+.line {
+ height:1px;
+ width:100%;
+ background:#00CCFF;
+ overflow:hidden;
+ }
+
+#kefu{
+	position:fixed;
+	top: 360px;
+	right:10px;
+	background-color: #43A94C;
+
+}
+
+.kefu_title{
+	width:150px;
+	text-align: center;
+}
+
+.kefu_title span{
+	font-size: 18px;
+	line-height: 40px;
+
+}
+#kefu ul li{
+	margin-top: 10px;
+	padding:5px;
+}
+
+#kefu ul li a{
+	font-size: 18px;
+	display:block;
+	color:#000;
+	text-decoration: none;
+	background: url(../img/button_11.gif) no-repeat right;
+	width:150px;
+	height:20px;
+
+}
+
+#weixin{
+	padding:5px;
+}
+
+#kefu img{
+	width:150px;
+}
